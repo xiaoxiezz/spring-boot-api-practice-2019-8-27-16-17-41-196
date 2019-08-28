@@ -1,13 +1,13 @@
 package com.tw.apistackbase.controller;
 
 public class Employee {
-    private String id;
+    private int id;
     private String name;
     private int age;
     private String gender;
     private int salary;
 
-    public Employee(String  id, String name, int age, String gender, int salary) {
+    public Employee(int  id, String name, int age, String gender, int salary) {
         super();
         this.id = id;
         this.name = name;
@@ -15,11 +15,11 @@ public class Employee {
         this.gender = gender;
         this.salary = salary;
     }
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
